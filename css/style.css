@@ -6,12 +6,12 @@ body {
   font-family: "Red Hat Display", sans-serif;
 }
 
-.container {
+div[role=container] {
   margin: 140px 33.7% 50px;
-  width: 33.7%;
+  width: 33%;
   font-family: Red Hat Display;
   background-color: #ffffff;
-  height: 635px;
+  height: 670px;
   border-radius: 20px;
 }
 .img {
@@ -35,9 +35,9 @@ p {
 /* str annul */
 .annual-plan {
   background-color: hsl(225, 100%, 98%);
-  padding: 14px;
+  padding: 25px;
   width: 335px;
-  margin: 0 46px 0;
+  margin: 0 35px 0;
 }
 
 h3 {
@@ -80,11 +80,11 @@ a {
   color: #717070;
   margin-top: 30px;
 }
-.attribution{
+div[role=attr]  {
   margin: 0 40.33% 0;
 }
-.attribution a{
-  margin: 0 0 10px;
+ a[href*="frontendmentor"],a[href^="#"] {
+  margin: 3px 5px;
   text-decoration-line: none;
   cursor: pointer;
 
@@ -103,8 +103,8 @@ body {
   background-color: #e0e8ff;
   font-family: "Red Hat Display", sans-serif;
 }
-.container {
-  margin:  150px 17.7% 50px;
+div[role=container] {
+  margin:  150px 8.7% 50px;
   width: 300px;
   font-family: "Red Hat Display", sans-serif;
   background-color: #ffffff;
@@ -196,8 +196,8 @@ a {
 
 
 
-.attribution a{
-  margin: 0 0 10px;
+ div[role=attr] a[href*="frontendmentor"],a[href^="#"] {
+  margin: 3px 5px;
   text-decoration-line: none;
   cursor: pointer;
 
