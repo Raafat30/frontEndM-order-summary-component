@@ -6,9 +6,9 @@ body {
   font-family: "Red Hat Display", sans-serif;
 }
 
-div[role=container] {
+.container {
   margin: 140px 33.7% 50px;
-  width: 33%;
+  width: 33.6%;
   font-family: Red Hat Display;
   background-color: #ffffff;
   height: 670px;
@@ -24,10 +24,10 @@ p {
   line-height: 25px;
 }
 
-h2 {
+h1 {
   color: #1b2751;
 }
-h2,
+h1,
 p {
   text-align: center;
 }
@@ -40,7 +40,7 @@ p {
   margin: 0 35px 0;
 }
 
-h3 {
+.annual-plan1 {
   position: absolute;
   margin-top: 3px;
   margin-left: 71px;
@@ -92,18 +92,12 @@ div[role=attr]  {
 /*end annul */
 
 
-/* str  media query */
+/* str  media mobile */
 
 
-@media (min-width: 375px) and (max-width:1000px){
-body {
-  font-size: 16px;
-  background-repeat: no-repeat;
-  /* background-image: url("../images/pattern-background-mobile.svg"); */
-  background-color: #e0e8ff;
-  font-family: "Red Hat Display", sans-serif;
-}
-div[role=container] {
+@media (min-width: 375px) and (max-width:500px){
+
+.container {
   margin:  150px 8.7% 50px;
   width: 300px;
   font-family: "Red Hat Display", sans-serif;
@@ -124,12 +118,12 @@ p {
 
 }
 
-h2 {
+h1 {
   width: 300px;
   color: #1b2751;
   font-size:18px 
 }
-h2,
+h1,
 p {
   text-align: center;
 }
@@ -143,7 +137,8 @@ p {
   margin: 0 29px 0;
 }
 
-h3 {
+
+.annual-plan1 {
   position: absolute;
   margin-top: -5px;
   margin-left: 49px;
@@ -193,14 +188,92 @@ a {
   font-weight: bold;
   font-size: 16px;
 }
+}
+/* end media mobile */
+
+/* str meida m and l */
+@media (min-width: 1000px) and (max-width:1440px){
 
 
+.container {
+  margin: 140px 33.7% 50px;
+  width: 33%;
+  font-family: Red Hat Display;
+  background-color: #ffffff;
+  height: 670px;
+  border-radius: 20px;
+}
+.img {
+  border-radius: 20px 20px 0 0;
+  width:100%;
+}
+p {
+  color: #8d91ac;
+  font-size: 16px;
+  margin: 13px 42px;
+  line-height: 25px;
+}
 
- div[role=attr] a[href*="frontendmentor"],a[href^="#"] {
-  margin: 3px 5px;
-  text-decoration-line: none;
-  cursor: pointer;
+h1 {
+  color: #1b2751;
+}
+h1,
+p {
+  text-align: center;
+}
 
+/* str annul */
+.annual-plan {
+  background-color: hsl(225, 100%, 98%);
+  padding: 25px;
+  width: 335px;
+  margin: 0 35px 0;
+}
+
+.annual-plan1 {
+  position: absolute;
+  margin-top: 3px;
+  margin-left: 71px;
+  /* color: hsl(224, 23%, 55%); */
+  color: #1f2f56;
+  /* color: hsl(225, 100%, 94%); */
+  /* color: hsl(245, 75%, 52%); */
+}
+
+.annual-plan img {
+  margin: 0 10px -3px;
+}
+
+span {
+  color: #9096b8;
+}
+
+a {
+  margin: 13px 8%;
+  position: absolute;
+}
+
+.proceedToPayment {
+  color: #f3f3f3;
+  padding: 10px;
+  box-shadow: 3px 19px 34px hsl(245deg 40% 76%);
+  border-radius: 5px;
+  background-color: hsl(245, 75%, 52%);
+  text-align: center;
+  width: 358px;
+  text-align: center;
+  margin: 30px auto;
+}
+
+.cancelOrder {
+  text-align: center;
+  color: #717070;
+  margin-top: 30px;
 }
 }
-/* end media */
+/*end annul */
+
+
+
+
+/* end meida m and l */
